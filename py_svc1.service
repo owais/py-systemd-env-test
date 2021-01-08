@@ -1,0 +1,7 @@
+[Unit]
+Description=Python Demo Service 1
+
+[Service]
+Environment=PYTHONUNBUFFERED=1
+Environment=TEST_ENV_VAR1=value-1
+ExecStart=/home/ubuntu/playground/svc1.py
